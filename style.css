@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222222;
+  color: #eeeeee;
+}
+
+.btn {
+  padding: 25px 30px;
+  background-color: #eeeeee;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+}
+
+.again {
+  position: fixed;
+  top: 5%;
+  left: 5%;
+}
+
+.between {
+  position: fixed;
+  top: 5%;
+  right: 5%;
+  font-size: 18px;
+}
+
+header {
+  position: relative;
+  height: 45vh;
+}
+
+header h1 {
+  font-size: 40px;
+  position: absolute;
+  left: 50%;
+  top: 25%;
+  transform: translate(-50%, -50%);
+  margin-top: 50px;
+}
+
+.number {
+  font-size: 60px;
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  transform: translate(-50%, -50%);
+  padding: 30px 70px;
+  margin-top: 10px;
+  background-color: #eeeeee;
+  color: #222222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  margin-top: 7%;
+  display: flex;
+  /* left: 50%;
+  transform: translate(-50%, -50%); */
+}
+
+.left {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.guess {
+  width: 220px;
+  border: 7px solid #eeeeee;
+  outline: none;
+  background: none;
+  color: #eeeeee;
+  text-align: center;
+  font-size: 60px;
+}
+.check {
+  width: 180px;
+  margin-top: 20px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+}
+
+.message {
+  font-size: 25px;
+  margin-bottom: 100px;
+}
+
+.label-score {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.label-highscore {
+  font-size: 20px;
+}
